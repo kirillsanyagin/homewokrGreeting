@@ -7,10 +7,22 @@
 // Необходимо продемонстрировать работу функции: у пользователя запросить его имя и вызвать функцию greeting, 
 // передав туда полученное от пользователя значение.
 
+// const username = prompt('Enter name');
+// function greeting(name) {
+//     console.log(`hello, ${name}`);
+// }
+// greeting(username);
+
+// const kirill = prompt('имя кирилл');
+// const username = prompt('Введите имя пользователя:');
+// function greeting(name){
+//     console.log(`Добро пожаловать, ${name}!`);
+// }
+// greeting(kirill);
+// greeting(username);
 
 function greeting(){
     let name = prompt('Введите имя пользователя:');
-    alert(`Добро пожаловать, ${name}!`);
+    console.log(`Добро пожаловать, ${name}!`);
 }
-greeting();
-console.log()
+greeting()
